@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width", initial-scale=1.0>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+        <link rel="stylesheet" href="uni.css"> 
+        <meta name="color-scheme" content="">
+     
+        <title>A University webpage</title>
+    </head>
+    <body> 
+        <nav>
+                <img src="/logo.png" class="logo">
+                <div class="nav-links" id="nav-link">
+                <img src="/close-btn.png" class="close-btn" onclick="hideMenu()">
+                <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#course">COURSE</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#foot">CONTACT</a></li>
+                </ul>
+                </div>
+                <img src="/menubtn.png" class="menu-btn" onclick="showMenu()">
+        </nav>
+
+        <header>
+            <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Making website is now one of the easiest thing in the world, you just need to learn HTML, CSS, JAVASCRIPT and you are good to go</p>
+            <a href="#" class='hero-btn'>Visit us to know things</a>
+            </div>    
+        </header>
+
+        <section class="courses" id="course">
+                <div class="course-header">
+                    <h2>Courses We Offer</h2>
+                    <p>Lorem ipsum dolor sit amet con</p>
+                </div>
+                <div class="row">
+                     <div class="col">
+                        <h3>Intermediate</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, possimus veritatis consequatur animi doloribus qui, quam id nihil quasi </p>  
+                     </div>
+                     <div class="col">
+                        <h3>Degree</h3>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, possimus veritatis consequatur animi doloribus qui, quam id nihil quasi</p>
+                     </div>
+                     <div class="col">
+                            <h3>Post-graduate</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eius, repudiandae libero mollitia rem minus impedit consectetur rat</p>
+                            </div>
+                     </div>
+                </div>
+        </section>
+
+        <section class="campus">
+            <div class="campus-header">
+                <h2>Our Global Campus</h2>
+                <p>Lorem ipsum dolor sit amet con mon</p>
+            </div>
+            <div class="row">
+                <div class="campus-col">
+                    <img src="/london.png">
+                    <div class="layer">
+                        <h3>LONDON</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="/newyork.png">
+                    <div class="layer">
+                        <h3>NEW YORK</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="/washington.png">
+                    <div class="layer">
+                        <h3>WASHINGTON</h3>
+                    </div>
+                </div>                        
+            </div>
+        </section>
+
+        <section class="facility">
+            <div class="facility-header">
+                <h2>Our facilities</h2>
+                <p>Lorem ipsum dolor sit amet con mon</p>
+            </div>
+            <div class="facility-img">
+                <div class="row">
+                    <div class="col">
+                        <img src="/library.png">
+                        <h3>World Class library</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro earum, esse officiis pariatur accusantium ducimus</p>
+                    </div>
+                    <div class="col">
+                        <img src="/basketball.png">
+                        <h3>Largest Play ground</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro earum, esse officiis pariatur accusantium ducimus</p>
+                    </div>
+                    <div class="col">
+                        <img src="/cafeteria.png">
+                        <h3>Tasty and Healthy food</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro earum, esse officiis pariatur accusantium ducimus</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimony">
+            <div class="testimony-header">
+            <h1>What Our Student Say</h1>
+            <p>Lorem ipsum dolor sit amet con mon</p>
+            </div>
+            <div class="row">
+                <div class="testimony-col">
+                    <img src="/user1.jpg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro earum, esse officiis pariatur accusantium ducimus</p>
+                    <h3>Christine Berkley</h3>
+                </div>                
+                <div class="testimony-col">
+                    <img src="/user2.jpg">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro earum, esse officiis pariatur accusantium ducimus</p>
+                    <h3>David Bayer</h3>
+                </div>
+            </div>
+        </section>
+        <section class="enroll">
+            <div class="enroll-text">
+            <h1>Enroll For Our Various Online Courses<br> Anywhere From The World</h1>
+            <a href="#" class="hero-btn">CONTACT US</a>
+            </div>
+        </section>
+        <section class="footer" id="foot">
+            <h4>About Us</h4>
+            <br>
+            <br>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro earum, esse officiis pariatur accusantium ducimus</p>
+            <div class="social">
+                <img src="/facebook.jpeg">
+                <img src="/twitter (2).png">
+                <img src="/gmail.jpeg">
+            </div>
+        </section>
+        <!--------JAVASCRIPT for toggle menu------> 
+        <script>
+            var navLinks = document.getElementById("nav-link");
+            function showMenu(){
+                navLinks.style.right="0";
+               
+            }
+            function hideMenu(){
+                navLinks.style.right= "-50%";
+            }
+        </script>
+    </body>
+</html>
