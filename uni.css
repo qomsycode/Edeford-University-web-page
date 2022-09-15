@@ -299,7 +299,8 @@ header p{
     }
     .nav-links{
         position: absolute;
-        right: -50%;
+        right: -300px;
+        top: 0;
         height: 100vh;
         width: 50%;
         background: #f44336;
