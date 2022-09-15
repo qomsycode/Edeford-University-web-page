@@ -63,7 +63,7 @@ a{
 
 /*header*/
 header{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(banner.png);
     background-position: center;
