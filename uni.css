@@ -301,7 +301,7 @@ header p{
         position: absolute;
         right: 0;
         height: 100%;
-        width: 50%;
+        width: -200px;
         background: #f44336;
         transition: 1s;
     }
