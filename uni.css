@@ -11,6 +11,7 @@ nav{
     position: absolute;
     display: flex;
     width: 100%;
+    overflow-x: hidden;
 }
 .logo{
     padding: 20px;
@@ -73,6 +74,7 @@ header{
     flex-direction: column;
     justify-content: center;
     color: whitesmoke;
+    overflow-x: hidden;
 }
 header h1{
     font-size: 8vmin;
