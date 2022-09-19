@@ -305,6 +305,7 @@ header p{
         height: 100vh;
         width: 50vw;
         background: #f44336;
+        overflow-x: hidden;
         transition: 1s;
     }
 
