@@ -307,6 +307,7 @@ header p{
         background: #f44336;
         overflow-x: hidden;
         transition: 1s;
+        z-index: 2;
     }
 
     .nav-links ul{
