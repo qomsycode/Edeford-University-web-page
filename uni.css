@@ -11,7 +11,6 @@ nav{
     position: absolute;
     display: flex;
     width: 100%;
-    overflow-x: hidden;
 }
 .logo{
     padding: 20px;
