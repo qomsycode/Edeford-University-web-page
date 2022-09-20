@@ -310,6 +310,9 @@ header p{
         transition: 1s;
         z-index: 2;
     }
+    header{
+        overflow-x: hidden;
+    }
 
     .nav-links ul{
         
